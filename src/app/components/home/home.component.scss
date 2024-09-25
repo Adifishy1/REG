@@ -1,0 +1,16 @@
+.hero {
+    background-image: url('/assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 487px;
+}
+
+.bottom {
+    background-image: url('/src/assets/wave-lines.svg');
+    background-repeat: no-repeat;
+    height: 625px;
+}
