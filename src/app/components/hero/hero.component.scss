@@ -1,59 +1,136 @@
-.main-heading{
-    margin-top: 40px;
+reg-role{
+  h6{
+    font-family:" JioType";
+font-size: 17px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: -0.05em;
+text-align: left;
+color: #E0A86C;
+
+  }
+  span{
+    font-family: "JioType";
+font-size: 13px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: -0.05em;
+text-align: left;
+color: white;
+  }
 }
 
-.opening-text{
-    font-family: JioType Var;
-    font-size: 20px;
-    font-weight: 500;
-    color: #FFFFFF;
-}
-.main-text{
-    font-family: JioType Var;
-    font-size: 59px;
-    font-weight: 700;
-    color: #DEAA62;
-}
-.Marquee{
-    width: 793px;
-    height: 56px;
-    background-color: #3045C1;
-    border: 1px solid #3F53CE;
-    max-width: fit-content;
+
+.card-title{
+  font-family: "JioType" ;
+  color: white;
+font-size: 22px;
+font-weight: 500;
+line-height: 25.81px;
+letter-spacing: -0.05em;
+text-align: left;
+
 }
 
-.Marquee-p{
-    font-family: JioType Var;
-    font-size: 16px;
-    font-weight: 400;
-    color: #F7C763;
-    margin-top: 15px;
+
+.title-underline{
+  background-color: #FFFFFF;
+  width: 30px;
+  height: 2px;
+  border-radius: 8px;
+  margin-bottom: 16px;
 }
 
-.quality-text{
-    font-family: JioType Var;
-    font-weight: 500;
-    color: #FFFFFF;
+.card-para{
+  font-family: "JioType";
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.05em;
+text-align: left;
+color: white;
 }
 
-h4{
-    font-family: JioType Var;
-    font-size: 22px;
-    font-weight: 500;
-    color: #FFFFFF;
+
+.ticker{background-color: #3045C1;
+
+  margin-top: 29px;
+  margin-bottom: 29px;
+  border: solid 1px #3F53CE;
+  marquee{
+    span{
+    font-family: "JioType";
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.05em;
+text-align: left;
+color: #F7C763;
+
+    }
+    padding: 18px 15px ;
+  }
 }
 
-h5{
-    font-family: JioType Var;
-    font-size: 17px;
-    font-weight: 700;
-    color: #E0A86C;
+
+.hero-text p{
+  margin: 0px;
+  font-family: "JioType";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+.hero-text h1{
+  color: #DEAA62;
+  margin: 0px;
+  font-family: "JioType";
+font-size: 59px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: -0.04em;
+text-align: left;
+
 }
 
-.bottom-text{
-    font-family: JioType Var;
-    font-size: 16px;
-    font-weight: 400;
-    color: #FFFFFF;
+.card-title h1{
+  font-family: "JioType";
+font-size: 22px;
+font-weight: 500;
+line-height: 25.81px;
+letter-spacing: -0.05em;
+text-align: left;
+margin-bottom: 3px;
+
 }
 
+
+.reg-role{
+
+  h6{
+    font-family: "JioType";
+font-size: 17px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: -0.05em;
+text-align: left;
+color: #E0A86C;
+margin: 2px;
+
+
+  }
+  span{
+    font-family: "JioType";
+font-size: 16px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: -0.05em;
+text-align: left;
+color: white;
+
+  }
+
+}

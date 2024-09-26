@@ -1,0 +1,89 @@
+<div>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item w-50">
+      <a class="nav-link active" data-toggle="tab" href="#home">
+        <div
+          class="d-flex justify-content-center flex-column align-items-center"
+        >
+          <img
+            style="width: 24px; height: 24px"
+            src="../../assets/icons/cake.svg"
+          />
+          <span class="tabsection">
+          Today’s Birthday</span>
+        </div></a
+      >
+    </li>
+    <li class="nav-item w-50">
+      <a class="nav-link" data-toggle="tab" href="#profile">
+        <div
+          class="d-flex justify-content-center flex-column align-items-center"
+        >
+          <img
+            style="width: 24px; height: 24px"
+            src="../../assets/icons/briefcase.svg"
+          />
+
+         <span class="tabsection">Work Anniversary</span>
+        </div></a
+      >
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div *ngFor="let workAni of workEvents" class="tab-content">
+    <div  id="home" class="tab-pane active">
+      <div class="birthday-tab position-relative">
+        <div class="row">
+          <div class="col-2 d-flex align-items-center">
+            <div class="profile-icon">
+              <img src={{workAni.img}} />
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column">
+              <div>
+            <h3>{{workAni.name}}</h3>
+            <p>{{workAni.role}}</p>
+          </div>
+            <button><span>Wish Him</span></button>
+          </div>
+          </div>
+          <div class="col">
+            <img
+              class="position-absolute confetti"
+              src="../../assets/icons/ribbon.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="profile" class="tab-pane fade">
+      <div class="birthday-tab position-relative">
+        <div class="row">
+          <div class="col-2 d-flex align-items-center">
+            <div class="profile-icon">
+              <img src={{workAni.img}} />
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column">
+              <div>
+            <h3>{{workAni.name}}</h3>
+            <p>{{workAni.role}}</p>
+          </div>
+            <button><span>Wish Him</span></button>
+          </div>
+          </div>
+          <div class="col">
+            <img
+              class="position-absolute confetti"
+              src="../../assets/icons/ribbon.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

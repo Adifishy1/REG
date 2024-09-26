@@ -1,47 +1,49 @@
 .contact-section{
-text-wrap: nowrap;
-display: flex;
-flex-direction: column;
-row-gap: 20px;
-}
+  text-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 290px;
+  margin-top: 15px;
+  }
 
-.contact-section h6{
-  font-family: "JioType";
-font-size: 13px;
-font-weight: 500;
-line-height: 15.25px;
-letter-spacing: -0.05em;
-text-align: left;
-
-}
-.contact-section p{
-  font-family: "JioType";
-
-  font-size: 18px;
+  .contact-section h6{
+    font-family: "JioType";
+  font-size: 13px;
   font-weight: 500;
-  line-height: 21.11px;
+  line-height: 15.25px;
   letter-spacing: -0.05em;
   text-align: left;
 
+  }
+  .contact-section p{
+    font-family: "JioType";
 
-}
-
-.email{
-background-color: #12D3AF;
-
-}
-.call{
-  background-color: #5674F2;
-  margin-top: 15px;
-}
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.11px;
+    letter-spacing: -0.05em;
+    text-align: left;
 
 
-.email,.call{
-  border-radius: 8px;
-  padding: 20px;
+  }
 
-  color:#FFFFFF;
-    h,p{
-      margin: 0px !important;
-    }
-}
+  .email{
+  background-color: #12D3AF;
+
+  }
+  .call{
+    background-color: #5674F2;
+    margin-top: 15px;
+  }
+
+
+  .email,.call{
+    border-radius: 8px;
+    padding: 20px;
+
+    color:#FFFFFF;
+      h,p{
+        margin: 0px !important;
+      }
+  }

@@ -1,16 +1,16 @@
 .navbar {
    background-color: #424CF1;
   }
-  
+
   .offcanvas {
-    background-color: #424CF1; 
+    background-color: #424CF1;
     color: white;
   }
-  
+
   .offcanvas-title {
     color: white;
   }
-  
+
 
   .notification-warning{
     position: absolute;
@@ -23,9 +23,9 @@
   }
 
   .nav-link {
-    position: relative; 
+    position: relative;
   }
-  
+
 .search-bar {
   position: relative;
   width: 100%;
@@ -33,7 +33,7 @@
 
 .search-input {
   padding-left: 40px;
-  padding-right: 40px; 
+  padding-right: 40px;
 }
 
 .search-icon {
@@ -46,12 +46,12 @@
 .search-input {
   background: #424CF1;
   border: 1px solid #FFFFFF;
-  border-radius: 30px; 
-  padding-left: 40px; 
-  padding-right: 40px; 
-  color: white; 
+  border-radius: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
   outline: none;
-  font-family: 'JioType Var', sans-serif;
+  font-family: '"Jiotype"', sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 15.25px;
@@ -60,7 +60,7 @@
 }
 
 ::placeholder {
-  color: gray; 
+  color: gray;
 }
 
 
@@ -85,7 +85,7 @@
 
 @media (max-width: 992px) {
   .search-bar {
-    width: 100%; 
+    width: 100%;
   }
   .notification-warning{
     position: absolute;
@@ -132,7 +132,7 @@
 
 .popUp-text{
   color: #54595E;
-  font-family: JioType Var;
+  font-family: "Jiotype";
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -140,7 +140,7 @@
 
 @media (max-width: 992px) {
   .red {
-    float: none; 
+    float: none;
     margin: auto;
   }
 
@@ -160,14 +160,14 @@
   background-color: white;
   position: relative;
   margin-top: 10px;
-  
+
   .dropdown-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid #e5e5e5;
-    
+
     .bell-icon img {
       width: 24px;
       padding: 5px 2px;
@@ -184,7 +184,7 @@
       p.notification-text {
         font-size: 12px;
         color: #54595E;
-        white-space: normal; 
+        white-space: normal;
         word-wrap: break-word;
         padding: 1px 12px;
 
@@ -193,15 +193,15 @@
 
     .btn-close {
       font-size: 12px;
-      float: right;        
+      float: right;
       padding: 4px 10px;
     }
 
     &.active-notification {
-      background-color: #f0f4ff; 
-      border-left: 4px solid #424CF1; 
+      background-color: #f0f4ff;
+      border-left: 4px solid #424CF1;
       .notification-title {
-        color: #424CF1; 
+        color: #424CF1;
       }
     }
   }
