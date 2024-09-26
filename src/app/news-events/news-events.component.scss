@@ -1,0 +1,77 @@
+.news-data{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+}
+
+
+.news-card{
+  background: #FFFDF9;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  border: none;
+
+  .card-body{
+    color: #000000;
+    padding: 18px 78px 29px 34px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: "JioType";
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: -0.05em;
+text-align: left;
+
+  }
+  .card-title{
+    color: #2C43BC;
+    font-family:"JioType";
+font-size: 15px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.05em;
+text-align: left;
+
+  }}
+
+
+  .card-title h1{
+    padding-left: 35px;
+    font-family:"JioType";
+font-size: 22px;
+font-weight: 500;
+line-height: 25.81px;
+letter-spacing: -0.05em;
+text-align: left;
+
+  }
+  .title-underline{
+    background: #2C43BC;
+    width: 30px;
+    height: 2px;
+    margin-left: 35px;
+    border-radius: 2px;
+  }
+.card-para{
+  font-family: "JioType";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.05em;
+text-align: left;
+
+}
+
+
+.vision-img{
+  right: 0;
+  top: 0;
+  max-width: 134px;
+  max-height: 121px;
+  z-index: -1;
+}

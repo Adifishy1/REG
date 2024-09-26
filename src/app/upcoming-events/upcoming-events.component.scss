@@ -1,0 +1,106 @@
+.nav-tabs{
+  border: none;
+  background-color: #22a9ec;
+
+}
+
+.tab-pane.active, .nav-link.active{
+  background-color: #22A9EC;
+  border: none;
+  color: white;
+
+}
+
+.birthday-tab{
+  h3{
+    font-family: "JioType";
+font-size: 15px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: -0.05em;
+text-align: left;
+color:  #1E1E1E;
+
+  }
+
+  p{
+    font-family: "JioType";
+font-size: 12px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: -0.05em;
+text-align: left;
+opacity: 0.6;
+color: #1E1E1E;
+
+  }
+  button{
+span{
+  font-family: 'JioType';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: #FFFFFF;
+}
+background-color: #22A9EC;
+border: none;
+border-radius: 4px;
+
+  }
+}
+
+
+// .birthday-tab :nth-child(1){
+//   border-radius:  8px 8px 0 0;
+// }
+// .birthday-tab :nth-last-child(1){
+//   border-radius: 0 0 8px 8px;
+// }
+.nav-link{
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.tab-pane,.nav-link{
+  background-color: #1E5BDD;
+  border: none;
+  color: white;
+  padding:  12px 10px;
+
+}
+
+.birthday-tab{
+  background-color: #D2F0FF;
+  border-radius: 8px;
+  padding: 14px 0px 9px 12px;
+}
+
+
+.profile-icon img{
+  border-radius: 50%;
+
+}
+
+
+.confetti{
+  z-index: 10;
+  right: 5px;
+}
+
+ul{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-wrap: nowrap;
+}
+
+.tabsection{
+  font-family: "JioType" ;
+font-size: 13px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: -0.05em;
+text-align: left;
+
+}

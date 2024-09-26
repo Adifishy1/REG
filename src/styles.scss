@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// font declaration
+
+
+
+@font-face {
+  font-family: 'JioType';
+  src: url('assets/fonts/JioType-Black.woff2') format('woff2'),
+      url('assets/fonts/JioType-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('assets/fonts/JioType-Light.woff2') format('woff2'),
+      url('assets/fonts/JioType-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('assets/fonts/JioType-Bold.woff2') format('woff2'),
+      url('assets/fonts/JioType-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('assets/fonts/JioType-LightItalic.woff2') format('woff2'),
+      url('assets/fonts/JioType-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('assets/fonts/JioType-Medium.woff2') format('woff2'),
+      url('assets/fonts/JioType-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('assets/fonts/JioType-MediumItalic.woff2') format('woff2'),
+      url('assets/fonts/JioType-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+body{
+  font-family: 'JioType';
+  background-color: #E9EDF4;
+}
+body{
+  width: 100%;
+  background-image: url('./assets//imgs/bg.png'); /* Replace with the actual image URL */
+  background-size: 100%; /* Image will take 50% of the container's size */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: top; /* Centers the image within the container */
+}
+
+
+
+.accordion-button::after {
+
+  background-image:  url('./assets/icons/accordion-initial.svg') !important;
+  background-size: auto;
+background-position: center;
+
+}
+
+.accordion-button:not(.collapsed)::after {
+
+  transform: rotate(90deg) !important;
+
+  }
+
+.accordion-body{
+  ul{
+    list-style-type: none; /* Remove default bullet */
+    padding-left: 45px; /* Create space for the image */
+  }
+  li {
+    background-image: url('./assets/icons/arrow.svg');
+    background-size: 10px 10px; /* Set the size of the icon */
+    background-repeat: no-repeat;
+    background-position: 0px 8px;
+    padding-left: 20px; /* Space between icon and text */
+
+
+  }
+
+}
+
+.custom-ul{
+  margin: 0;
+  padding: 0;
+}
+
+

@@ -1,0 +1,58 @@
+
+
+.mission-card{
+  background: linear-gradient(132.99deg, #FCCD6A 22.55%, #EDBB54 82.76%);
+  padding-top: 29px;
+  padding-bottom: 29px;
+  border: none;
+
+  .card-body{
+    color: #634911;
+    padding: 18px 78px 29px 34px;
+  }
+  .card-title{
+    color: #634911;
+    font-family:"JioType";
+font-size: 15px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.05em;
+text-align: left;
+
+  }
+
+  .card-title h1{
+    padding-left: 35px;
+    font-family:"JioType";
+font-size: 22px;
+font-weight: 500;
+line-height: 25.81px;
+letter-spacing: -0.05em;
+text-align: left;
+
+  }
+  .title-underline{
+    background: #7A5D20;
+    width: 30px;
+    height: 2px;
+    margin-left: 35px;
+    border-radius: 2px;
+  }
+.card-para{
+  font-family: "JioType";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.05em;
+text-align: left;
+
+}
+}
+
+.vision-img{
+  right: 0;
+  top: 0;
+  max-width: 134px;
+  max-height: 121px;
+  z-index: -1;
+}

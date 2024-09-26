@@ -1,0 +1,50 @@
+<div class="news-card card  position-relative z-3">
+  <img class="position-absolute vision-img " src="../../assets/imgs/news.png" />
+
+  <div class="card-title">
+    <h1>News & Events</h1>
+    <div class="title-underline"></div>
+  </div>
+  <div class="card-body">
+<div *ngFor="let news of newsEvents" >
+  <div>
+    <div class="card-title">{{news.date}}</div>
+    <div class="card-para text-start news-data">
+{{news.newsData}}
+    </div>
+  </div>
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+<!--
+<div class="card mission-card position-relative z-3">
+  <img class="position-absolute vision-img " src="../../assets/imgs/vission.png" />
+
+  <div class="card-title">
+    <h1>Mission & Vision Statements</h1>
+    <div class="title-underline"></div>
+  </div>
+  <div class="card-body d-flex flex-column gap-3">
+    <div>
+      <div class="card-title">Our Mission</div>
+      <div class="card-para text-start">
+        Contrary to popular belief, Lorem Ipsum is not simply text. popular
+        belief, Lorem Ipsum is not simply random text.
+      </div>
+    </div>
+
+    <div>
+      <div class="card-title">Our Vision</div>
+      <div class="card-para text-start">
+        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. popular belief.
+      </div>
+    </div>
+  </div>
+</div> -->

@@ -1,0 +1,25 @@
+<div class="left-panel">
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div *ngFor="let item of accordionItems" class="accordion-item">
+      <h2 class="accordion-header" [attr.id]="'panelsStayOpen-heading' + item.id">
+        <button class="accordion-button collapsed" type="button"
+                [attr.data-bs-target]="'#panelsStayOpen-collapse' + item.id"
+                aria-expanded="false"
+                [attr.aria-controls]="'panelsStayOpen-collapse' + item.id"
+                data-bs-toggle="collapse">
+          <div class="d-flex gap-2 align-items-center">
+            <div class="icon-bg" [style.background-color]="item.color">
+            <img [src]="item.image" alt="Icon for {{ item.name }}" />
+          </div>
+            <span class="item-head">{{ item.name }}</span>
+          </div>
+        </button>
+      </h2>
+      <div [attr.id]="'panelsStayOpen-collapse' + item.id"
+           class="accordion-collapse collapse"
+           [attr.aria-labelledby]="'panelsStayOpen-heading' + item.id">
+        <div class="accordion-body" [innerHTML]="item.description"></div>
+      </div>
+    </div>
+  </div>
+</div>
