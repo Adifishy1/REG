@@ -1,0 +1,37 @@
+<div class="wrapper">
+    <header>
+      <div class="icons">
+        <span (click)="changeMonth('prev')" class="material-symbols-rounded">
+          <img src="assets/left-arrow.svg" alt="left" />
+        </span>
+      </div>
+      <p class="current-date">{{ currentDate }}</p>
+      <div class="icons">
+        <span (click)="changeMonth('next')" class="material-symbols-rounded">
+          <img src="assets/right-arrow.svg" alt="right" />
+        </span>
+      </div>
+    </header>
+    <div class="calendar">
+      <ul class="weeks">
+        <li>Sun</li>
+        <li>Mon</li>
+        <li>Tue</li>
+        <li>Wed</li>
+        <li>Thu</li>
+        <li>Fri</li>
+        <li>Sat</li>
+      </ul>
+      <ul class="days">
+        <li *ngFor="let day of days" 
+            [class.inactive]="day.inactive" 
+            [class.active]="day.active" 
+            [class.selected]="day.selected" 
+            (click)="toggleSelectDay(day)">
+          {{ day.num }}
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+  

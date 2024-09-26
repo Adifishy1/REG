@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 270px; 
+  height: 345px; 
+  background: #fff;
+  position: absolute; 
+  gap: 0px; 
+  border-radius: 13.7px 13.7px 13.7px 13.7px;
+  opacity: 1; 
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px 10px; 
+  justify-content: space-between;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 22px;
+    top: 50px;
+    width: 84%;
+    border-bottom: 0.49px solid #D9ECF8;
+  }
+}
+
+.icons {
+  display: flex;
+}
+
+.icons span {
+  height: 28.73px; 
+  width: 28.73px;
+  margin: 0 1px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px; 
+  font-size: 1.5rem; 
+  user-select: none;
+  border-radius: 50%;
+
+}
+
+.current-date {
+    font-family: JioType Var;
+    font-weight: 500;
+    text-align: center;   
+    font: bolder; 
+}
+
+.calendar {
+  padding: 10px; 
+}
+
+.calendar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+.calendar .days {
+  margin-bottom: 15px; 
+}
+
+.calendar li {
+  color: #1B1B1B;
+  width: calc(100% / 7);
+  font-size: 0.9rem; 
+}
+
+.weeks li {
+  font-weight: 500;
+  cursor: default;
+  color: #B3B3B3;
+}
+
+.days li {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 20px; 
+}
+
+.days li.inactive {
+  color: #E2E0EF;
+}
+
+.days li.active {
+  color: #657FF5;
+}
+
+.days li::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 30px; /* Adjusted size of circle */
+  width: 30px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.days li.active::before {
+  border: 1px solid #657FF5; /* Highlight active day */
+  border-radius: 25%;
+}
+
+.days li:not(.active):hover::before {
+  border: 1px solid #657FF5;
+  border-radius: 25%;
+}
+
+.days li.selected {
+    background-color: #657ff5; /* Selected background */
+    color: #fff; /* Selected text color */
+  }
+  
+.days li.selected::before {
+    background: none; /* Remove circle background for selected */
+}
