@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { CommonModule } from '@angular/common'; // Add CommonModule for *ngFor and *ngIf directives
 @Component({
   selector: 'app-upcoming-events',

@@ -58,17 +58,39 @@
   font-style: italic;
   font-display: swap;
 }
-
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: 'JioType' !important;
   background-color: #E9EDF4;
 }
-body{
-  width: 100%;
-  background-image: url('./assets//imgs/bg.png'); /* Replace with the actual image URL */
-  background-size: 100%; /* Image will take 50% of the container's size */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: top; /* Centers the image within the container */
+// body{
+//   width: 100%;
+//   background-image: url('./assets//imgs/bg.png'); /* Replace with the actual image URL */
+//   background-size: 100%; /* Image will take 50% of the container's size */
+//   background-repeat: no-repeat; /* Prevents the image from repeating */
+//   background-position: top; /* Centers the image within the container */
+// }
+
+.main-page {
+  position: relative;
+  overflow: hidden; /* Ensure the image does not overflow */
+
+}
+
+
+
+.half-height-image {
+  height: 90vh; /* 50% of the viewport height */
+  width: 100%; /* You can adjust this to fit the width */
+  object-fit: cover; /* Ensures the image covers its container without stretching */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10 !important;
 }
 
 
@@ -110,3 +132,6 @@ background-position: center;
 }
 
 
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

@@ -67,7 +67,7 @@ border-radius: 4px;
   background-color: #1E5BDD;
   border: none;
   color: white;
-  padding:  10px 10px;
+  padding:  5px 10px;
 
 }
 
@@ -105,7 +105,13 @@ text-align: left;
 
 }
 
-.tab-pane:nth-child(1){
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+
+.upcoming-events{
+  border-radius: 8px;
+  overflow: hidden;
 }
+
+// .tab-pane:nth-child(1){
+//   border-bottom-left-radius: 8px;
+//   border-bottom-right-radius: 8px;
+// }
