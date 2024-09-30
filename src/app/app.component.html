@@ -1,45 +1,37 @@
-
-<div class="main-page">
+<div class="main-page position-relative">
   <img src="../assets/imgs/bg.png" alt="Background Image" class="half-height-image" />
-
   <app-navbar></app-navbar>
   <div class="container">
-
-  <div class="row">
-    <div class="col-lg-3">
-  <app-left-panel></app-left-panel>
-  <app-contact></app-contact>
-  </div>
-  <div class="col-lg-9 d-flex flex-column gap-4">
-
+    <div class="mt-2 mb-4">
     <div class="row">
-    <app-hero class="z-1"></app-hero>
-  </div>
-  <div class="row">  <div class="col-8">
-
-    <app-mission-statement></app-mission-statement>
+      <div class="col-lg-3 left-side">
+        <app-left-panel></app-left-panel>
+      </div>
+      <div class="col-lg-9 d-flex flex-column gap-4">
+        <div class="row">
+          <app-hero class="z-1"></app-hero>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <app-mission-statement></app-mission-statement>
+          </div>
+          <div class="col-4 z-2">
+            <app-upcoming-events></app-upcoming-events>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 z-2">
+            <app-calendar></app-calendar>
+          </div>
+          <div class="col-8 z-2">
+            <app-news-events></app-news-events>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-4 z-2">
-    <app-upcoming-events ></app-upcoming-events>
   </div>
+    <router-outlet />
   </div>
-  <div class="row">
-    <div class="col-4 z-2">
-      <app-calendar ></app-calendar>
-    </div>
-    <div class="col-8 z-2">
-      <app-news-events></app-news-events>
-    </div>
-
-
-  </div>
-
-
-  </div>
-  </div>
-
-  <router-outlet />
-  </div>
-
+  <img src="../assets/imgs/wave-lines.png" alt="Image" class="bottom-height-image position-absolute bottom-0" />
   <app-footer></app-footer>
-  </div>
+</div>

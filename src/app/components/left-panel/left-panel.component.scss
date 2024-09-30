@@ -1,11 +1,16 @@
 .item-head{
-    color: #444444;
-    font-family: 'JioType';
+  color: #444444;
+  font-family: 'JioType';
   font-size: 13px;
   font-weight: 500;
   line-height: 13px;
   text-align: left;
   padding: 15px;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
   }
 
 .icon-bg{
@@ -17,11 +22,17 @@
   border: none;
   border-radius: 6px;
   background-color: #cfe2ff;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+
 }
 
 .accordion-button{
   border-radius: 6px;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
 }
 
 .accordion-body{
@@ -29,9 +40,35 @@
 }
 
 .left-panel{
-  // width: 290px;
   background-color:  #FFFFFF;
   padding: 20px 15px;
   border-radius: 8px;
+}
 
+.contact-panel{
+  padding: 20px 13px;
+  border-radius: 8px;
+}
+
+.accordion-button {
+  padding: 0px !important;
+  border-radius: 6px;
+  position: relative; // Add this to position the arrow
+
+  &::after {
+    content: '';
+    display: inline-block;
+    width: 12px; // Customize the width
+    height: 12px; // Customize the height
+    background-image: url('../../../assets/arrow-image.svg'); // Path to your custom arrow
+    background-size: cover;
+    position: absolute;
+    right: 20px; // Adjust the right position to align correctly
+    top: 50%;
+    transform: translateX(-50%);
+  }
+
+  &.collapsed::after {
+    transform: translateY(-50%); // Rotate the arrow when collapsed
+  }
 }

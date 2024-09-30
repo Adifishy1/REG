@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common'; // Add CommonModule for *ngFor and *ngIf directives
+import { ContactComponent } from '../contact/contact.component';
 
 @Component({
   selector: 'app-left-panel',
   standalone: true, // This allows the component to be a standalone component
-  imports: [CommonModule], // Import CommonModule to use directives like *ngFor, *ngIf
+  imports: [CommonModule,ContactComponent], // Import CommonModule to use directives like *ngFor, *ngIf
   templateUrl: './left-panel.component.html',
   styleUrls: ['./left-panel.component.scss'] // Correct 'styleUrl' to 'styleUrls' as it accepts an array
 })

@@ -2,13 +2,13 @@
   text-wrap: nowrap;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
-  // width: 290px;
-  margin-top: 15px;
+  // row-gap: 20px;
+  // // width: 290px;
+  // margin-top: 15px;
   }
 
   .contact-section h6{
-    font-family: "JioType";
+  font-family: "JioType";
   font-size: 13px;
   font-weight: 500;
   line-height: 15.25px;
@@ -18,19 +18,20 @@
   }
   .contact-section p{
     font-family: "JioType";
-
     font-size: 18px;
     font-weight: 500;
     line-height: 21.11px;
     letter-spacing: -0.05em;
     text-align: left;
-
-
   }
 
   .email{
   background-color: #12D3AF;
+  }
 
+  .email a{
+    color: #FFFFFF;
+    text-decoration: none;
   }
   .call{
     background-color: #5674F2;

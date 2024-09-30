@@ -1,0 +1,28 @@
+.main-page{
+ background: #E9EDF4;
+}
+   
+.left-side{
+       z-index: 2  !important;
+}
+   
+.container{
+       margin-top:50px;
+}
+   
+.half-height-image{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0 !important;
+}
+
+.half-height-image{
+    object-fit: cover;
+    position: absolute;
+    top: 400;
+    z-index: 0 !important;
+}
